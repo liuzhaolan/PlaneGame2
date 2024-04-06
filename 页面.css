@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image:url("../picture/R-X.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+   }
+   
+.index_list li{
+    display: inline; 
+    margin-right: 20px;
+    font-size: 30;
+    font-family:"华文行楷";
+}
+
+.ul_list
+ { 
+    position: absolute;
+    top: 70px;/*距离顶部70px*/
+    left: 350px;/*距离左侧70px*/
+    list-style-type:none;
+}
+.ul_list a{ 
+   text-decoration: none;/*去掉下划线*/
+   color: rgb(255, 255, 255); 
+}
+.ul_list a:hover{
+color:rgb(0, 0, 0);/*鼠标置于上方显示白色*/
+
+}
+.index_list2{
+     width: 1500px;
+     height: 2000px;
+     padding-top:50;
+     margin-left: 90px;
+     margin-top: 290px;
+     background:rgba(9, 9, 9, 0.5);
+     border-radius: 50px 50px 50px 50px/50px 50px 50px 50px;
+}
+
+.index_list{
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    position: absolute;/*绝对定位*/
+    top: 0px;/*距离顶部0像素*/
+    left: 0;/*距离左侧边界0px*/
+    background-image: url("../picture/R-I.png");
+    background-position: 0px 250px;
+}
+.index_list2 p{
+    font-family: 宋体;
+    color: azure;
+    font-size: 20px;
+    line-height: 40px;
+}
+.center {
+    color: aliceblue;
+    text-align: center;
+}
+
+#footer{
+    text-align:center;
+    color: aliceblue;
+    width: 100%x;
+    height: 80px;
+    margin:50px 0px 0px 0px;
+}
+.zhujue{
+    text-align:center;
+    color: aliceblue;
+}
+.mingren img{
+    border-radius: 20px 20px 20px 20px/20px 20px 20px 20px;
+   width: 250px;
+   height: 250px;
+}
+.mingren{
+   
+    border-radius: 10px;
+    display: flex;  
+}
+.mingren p{
+    text-indent: 2em;
+   display: inline-block;
+}
+.zuozhu img{
+    border-radius: 20px 20px 20px 20px/20px 20px 20px 20px;
+    width: 250px;
+    height: 250px;
+}
+.zuozhu{
+    margin-top: 80px;
+    display: flex;  
+}
+.zuozhu p{
+    text-indent: 2em;
+  display: inline-block;
+}
+.xiaoying img{
+    border-radius: 20px 20px 20px 20px/20px 20px 20px 20px;
+    width: 250px;
+   height: 250px;
+}
+.xiaoying{
+    margin-top: 80px;
+    display: flex;  
+}
+.xiaoying p{
+    text-indent: 2em;
+  display: inline-block;
+}
+
+/*lunbotu*/
+.slideshow {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slideshow img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  @keyframes slideshowAnimation {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    33.33% {
+      opacity: 1;
+    }
+    53.33% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .slideshow .slide {
+    position: absolute;
+    animation: slideshowAnimation 9s infinite;
+    opacity: 0;
+  }
+
+  .slideshow .slide:nth-child(2) {
+    animation-delay: 3s;
+  }
+
+  .slideshow .slide:nth-child(3) {
+    animation-delay: 6s;
+  }

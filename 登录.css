@@ -1,0 +1,82 @@
+body{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    background:url("../picture/R-F.jpg") no-repeat top center;
+    color:#FFF;
+}
+form,p{padding: 0; margin: 0; border: 0;}
+form{
+    width: 450px;
+    height: 200px;
+    padding-top:60px;
+    margin:400px auto;
+    background: rgba(255,255,255,0.1);
+    border-radius:20px;
+    border: 1px solid rgba(255,255,255, 0.5);
+}
+p{
+    margin-top: 15px;
+    text-align: center;
+}
+p span{
+    color: #ffffff;
+    width: 60px;
+    display: inline-block;
+    text-align: right;
+}
+.num,.pass{
+    width: 165px;
+    height: 20px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2px 2px 2px 22px;
+    border-radius: 5px;
+    color: #FFF;
+}
+.num{
+    background: no-repeat 5px center rgba(255,255,255,0.1);
+}
+.pass{
+    background: no-repeat 5px center rgba(255,255,255,0.1);
+}
+.btn01{
+    width: 190px;
+    height: 25px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    margin-left: 65px;
+    background: #57b2c9;
+    color: #FFF;
+    border: none;
+}
+.index_list{
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    position: absolute;/*绝对定位*/
+    top: 0px;/*距离顶部0像素*/
+    left: 0;/*距离左侧边界0px*/
+    background-image: url("../picture/R-I.png");
+    background-position: 0px 250px;
+}
+.index_list li{
+    display: inline; 
+    margin-right: 20px;
+    font-size: 30;
+    font-family:"华文行楷";
+}
+
+.ul_list
+ { 
+    position: absolute;
+    top: 70px;/*距离顶部70px*/
+    left: 350px;/*距离左侧70px*/
+    list-style-type:none;
+}
+.ul_list a{ 
+   text-decoration: none;/*去掉下划线*/
+   color: rgb(255, 255, 255); 
+}
+.ul_list a:hover{
+color:rgb(0, 0, 0);/*鼠标置于上方显示白色*/
+
+}

@@ -1,0 +1,50 @@
+.nav{
+    height:40px;
+    background-color: rgb(7, 73, 117);
+    box-shadow: 0px 1px 2px 0px #bbb;
+    margin-bottom:100px;
+    margin-top: -60px;
+    position: relative;
+}
+.drop{
+    float:right;
+    width:150px;
+    line-height: 30px;
+    background-color: rgb(7, 73, 117);
+    text-align:center;
+    margin-right: -10px;
+
+}
+
+.droplist a {
+    font-size: 13px;
+     color: #000000;
+     text-decoration: none;
+     display: block;
+
+}
+.droplist{
+    box-shadow: 0px 1px 2px 0px #bbb;
+    display:none;
+    line-height: 10px;
+
+}
+.droplist span {
+    font-size: 16px;
+}
+
+.drop:hover .droplist{
+    display: block;
+}
+.droplist a:hover{
+    background: #bbb;
+}
+
+
+#footer{
+    color: aliceblue;
+    text-align:center;
+    width: 100%x;
+    height: 80px;
+    margin:50px 0px 0px 0px;
+}

@@ -1,0 +1,60 @@
+.hello{
+    background-color: rgba(240, 240, 240, 0.6);
+    margin-top: 200px;
+    margin-left:350px;
+    padding-top:50px;
+    padding-left: 30px;
+    width: 900px;
+    height: 800px;
+    border-radius: 10px;
+    
+}
+body{
+    background-image: url(../../picture/R-J.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% bottom;
+}
+p {
+    line-height: 2.0;
+    text-indent: 2em;
+    font-style: 华文楷体;
+  }
+  footer {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 150px;
+  }
+
+/*通栏*/
+.index_list{
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    position: absolute;/*绝对定位*/
+    top: 0px;/*距离顶部0像素*/
+    left: 0;/*距离左侧边界0px*/
+    background-image: url("../picture/R-I.png");
+    background-position: 0px 250px;
+}
+.index_list li{
+    display: inline; 
+    margin-right: 20px;
+    font-size: 30;
+    font-family:"华文行楷";
+}
+
+.ul_list
+ { 
+    position: absolute;
+    top: 70px;/*距离顶部70px*/
+    left: 350px;/*距离左侧70px*/
+    list-style-type:none;
+}
+.ul_list a{ 
+   text-decoration: none;/*去掉下划线*/
+   color: rgb(255, 255, 255); 
+}
+.ul_list a:hover{
+color:rgb(0, 0, 0);/*鼠标置于上方显示白色*/
+}

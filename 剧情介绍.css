@@ -1,0 +1,120 @@
+body{
+    background-image:url("../picture/R-E.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+   }
+
+
+ #d2{
+    margin-left: 90px;
+    margin-top: 250px;
+    text-align:center;
+    letter-spacing: 5px;
+    border-radius: 20px 20px 20px 20px/20px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width:1500px;
+}
+
+
+
+#d2 h1{
+    text-align:center;
+    font-size:30px;
+ }
+#d2 img{
+    margin-left: 10px;
+    height: 400px;
+    width:400px;
+    float: left;
+}
+#d2 p{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #000000;
+    text-align:left;
+    text-indent: 2em;
+    line-height:33px;
+}
+#d3 h1{
+    color: aliceblue;
+    text-align:center;
+    font-size:30px;
+  }
+#d3 img{
+    margin-left: 100px;
+    height:280px;
+    width: 250px;
+    border-radius:15px;
+}
+#d4{
+    margin-left: 90px;
+    width: 1500px;
+    border-radius: 20px 20px 20px 20px/20px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#d4 h1{
+    
+    color: aliceblue;
+    text-align:center;
+    font-size:30px;
+}
+#d4 p{
+    text-align:center;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: #090909;
+    line-height:33px;
+}
+#d5 img{
+    float: left;
+}
+#d6 img{
+    height: 200px;
+    width:300px;
+}
+
+ #footer{
+    color: aliceblue;
+    text-align:center;
+    width: 100%x;
+    height: 80px;
+    margin:50px 0px 0px 0px;
+}
+
+#a1{
+    float:right;
+}
+
+/*通栏*/
+.index_list{
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    position: absolute;/*绝对定位*/
+    top: 0px;/*距离顶部0像素*/
+    left: 0;/*距离左侧边界0px*/
+    background-image: url("../picture/R-I.png");
+    background-position: 0px 250px;
+}
+.index_list li{
+    font-size: 30px;
+    display: inline; 
+    margin-right: 20px;
+    font-family:"华文行楷";
+}
+
+.ul_list
+ { 
+    position: absolute;
+    top: 70px;/*距离顶部70px*/
+    left: 350px;/*距离左侧70px*/
+    list-style-type:none;
+}
+.ul_list a{ 
+   text-decoration: none;/*去掉下划线*/
+   color: rgb(255, 255, 255); 
+}
+.ul_list a:hover{
+color:rgb(0, 0, 0);/*鼠标置于上方显示白色*/
+
+}
